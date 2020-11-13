@@ -45,6 +45,7 @@
   align-items: center;
   background: #282c34;
   color: white;
+  outline: none;
 }
 
 .nav-links{
@@ -52,4 +53,16 @@
   justify-content: space-around;
   align-items: center;
   width: 50%;
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  color: black;
 }
