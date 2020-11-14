@@ -6,6 +6,7 @@ function Home(){
     return(
         <div class="container">
             <h1 class="name-style">Jonathan Rivera</h1>
+            <p>Software Developer</p>
             <img src={Logo} class="App-logo"></img>
         </div>
     );

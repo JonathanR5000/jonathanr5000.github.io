@@ -39,6 +39,46 @@
 }
 */
 
+h1{
+  color: black;
+}
+
+/* Home Page */
+.container{
+  height: 90vh;
+  display: grid;
+  justify-content: space-evenly;
+  background: #28E0D8;
+  background: -webkit-linear-gradient(bottom, #28E0D8, #943189);
+  background: -moz-linear-gradient(bottom, #28E0D8, #943189);
+  background: linear-gradient(to top, #28E0D8, #943189);
+}
+
+.name-style{
+  color: #255384;
+  font-size: 3rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 90%;
+}
+
+
+/* About Page */
+
+
+
+/* Projects Page*/
+
+
+/* Education Page */
+
+/* Contact Page */
+
+/* Navbar */
+
 .navBar{
   min-height: 10vh;
   display: flex;
@@ -64,24 +104,7 @@
   color: white;
 }
 
-h1{
-  color: black;
-}
-
-/* About */
-.container{
-  margin: 5rem 5rem;
-  display: grid;
-  justify-content: space-around;
-}
-
-.name-style{
-  color: #255384;
-  font-size: 3rem;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  border-radius: 90%;
+.links:hover{
+  color: pink;
+  border-bottom: 3px solid pink;
 }
