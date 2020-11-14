@@ -46,12 +46,20 @@ h1{
 /* Home Page */
 .container{
   height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  background: #D0CDCD;
+  background: -webkit-linear-gradient(bottom, #D0CDCD, #B2B4AC);
+  background: -moz-linear-gradient(bottom, #D0CDCD, #B2B4AC);
+  background: linear-gradient(to top, #D0CDCD, #B2B4AC);
+}
+
+.left-row{
   display: grid;
-  justify-content: space-evenly;
-  background: #28E0D8;
-  background: -webkit-linear-gradient(bottom, #28E0D8, #943189);
-  background: -moz-linear-gradient(bottom, #28E0D8, #943189);
-  background: linear-gradient(to top, #28E0D8, #943189);
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 10% 10%;
+  margin-top: 15rem;
 }
 
 .name-style{
@@ -59,10 +67,15 @@ h1{
   font-size: 3rem;
 }
 
+.name-title{
+  font-size: 2rem;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
   border-radius: 90%;
+  margin-top: 8.5rem;
 }
 
 
