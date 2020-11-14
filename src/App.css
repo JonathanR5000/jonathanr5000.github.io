@@ -81,7 +81,39 @@ h1{
 
 /* About Page */
 
+.about-container{
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 20% 30% 20%;
+  padding: 2rem 3rem;
+  align-items: center;
+  justify-content: center;
+  background: #D0CDCD;
+  background: -webkit-linear-gradient(bottom, #D0CDCD, #B2B4AC);
+  background: -moz-linear-gradient(bottom, #D0CDCD, #B2B4AC);
+  background: linear-gradient(to top, #D0CDCD, #B2B4AC);
+}
 
+.about-heading{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  font-size: 3rem;
+}
+
+.resume-button{
+  width: 5%;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 95%;
+  background: #0E8DF2;
+  background: -webkit-linear-gradient(right, #0E8DF2, #0809AA);
+  background: -moz-linear-gradient(right, #0E8DF2, #0809AA);
+  background: linear-gradient(to left, #0E8DF2, #0809AA);
+}
 
 /* Projects Page*/
 
