@@ -9,7 +9,7 @@ import Contact from "./components/pages/Contact"
 import Navbar from "./components/Navbar"
 
 function App() {
-  return (
+  return (  
     <main>
       <Router>
         <Navbar />

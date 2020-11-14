@@ -1,10 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import Logo from '../../jonathanrivera.jpg';
 
 function Home(){
     return(
-        <div>
-            <h1>Jonathan Rivera</h1>
+        <div class="container">
+            <h1 class="name-style">Jonathan Rivera</h1>
+            <img src={Logo} class="App-logo"></img>
         </div>
     );
 }

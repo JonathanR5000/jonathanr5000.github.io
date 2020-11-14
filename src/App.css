@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 90%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -65,4 +66,22 @@
 
 h1{
   color: black;
+}
+
+/* About */
+.container{
+  margin: 5rem 5rem;
+  display: grid;
+  justify-content: space-around;
+}
+
+.name-style{
+  color: #255384;
+  font-size: 3rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 90%;
 }

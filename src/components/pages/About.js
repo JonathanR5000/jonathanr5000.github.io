@@ -3,7 +3,7 @@ import '../../App.css';
 
 function About(){
     return(
-        <h1>Testing</h1>
+        <h1 class="about-heading">Testing</h1>
     );
 }
 
