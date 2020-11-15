@@ -95,7 +95,7 @@ h1{
 }
 
 .about-heading{
-  width: 50%;
+  font-size: 3rem;
   align-items: center;
   justify-content: center;
 }
@@ -113,6 +113,7 @@ h1{
   background: -webkit-linear-gradient(right, #0E8DF2, #0809AA);
   background: -moz-linear-gradient(right, #0E8DF2, #0809AA);
   background: linear-gradient(to left, #0E8DF2, #0809AA);
+  cursor: pointer;
 }
 
 /* Projects Page*/
