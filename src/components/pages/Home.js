@@ -10,8 +10,8 @@ function Home(){
                 <h1 class="name-style">Jonathan Rivera</h1>
                 <p class="name-title">Inspiring Software Developer</p>
                 <div class="about-links">
-                    {/* <img src={LinkedIN} href="#"></img> */}
-                    {/* Include anchor or icon links to github, and linkedIN*/}
+                    <a class="about-btn linkedIN" href="https://www.linkedin.com/in/jonathanrivera5000/" target="_blank"> LinkedIN </a>
+                    <a class="about-btn github" href="https://github.com/JonathanR5000" target="_blank"> Github </a>
                 </div>
             </div>
             <div class="right-row">
