@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import Logo from '../../jonathanrivera.jpg';
-import LinkedIN from '../../linkedIN.jpg';
 
 function Home(){
     return(

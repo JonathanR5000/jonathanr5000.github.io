@@ -135,15 +135,21 @@ h1{
 }
 
 .resume-button{
+  text-decoration: none;
   width: 5%;
   color: white;
-  padding: 1.5rem;
-  border-radius: 95%;
-  background: #0E8DF2;
+  border: 2px solid black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
   background: -webkit-linear-gradient(right, #0E8DF2, #0809AA);
   background: -moz-linear-gradient(right, #0E8DF2, #0809AA);
   background: linear-gradient(to left, #0E8DF2, #0809AA);
   cursor: pointer;
+}
+
+.resume-button:hover{
+  background: #0e97f2;
 }
 
 /* Projects Page*/
