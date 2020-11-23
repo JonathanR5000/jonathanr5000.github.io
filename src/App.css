@@ -52,7 +52,9 @@ h1{
 
 /* Home Page */
 .container{
+  margin: none;
   height: 90vh;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   background: #D0CDCD;
@@ -119,7 +121,7 @@ h1{
 /* About Page */
 
 .about-container{
-  height: 80vh;
+  height: 90vh;
   display: grid;
   grid-template-rows: 20% 30% 20%;
   padding: 2rem 3rem;
@@ -139,11 +141,14 @@ h1{
 
 .description{
   font-size: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .resume-button{
   text-decoration: none;
-  width: 5%;
+  margin-top: 8rem;
+  width: 10%;
   color: white;
   border: 2px solid black;
   padding: 14px 28px;
