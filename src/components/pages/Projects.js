@@ -1,22 +1,52 @@
 import React from 'react';
 import '../../App.css';
-import { Card } from 'react-bootstrap';
+import Natours from '../../natours.png';
+import Omnifood from '../../Omnifood.png';
 
 function Projects(){
     return(
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+    <div class="project-container">
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src={Natours} alt="Card image cap"></img>
+                <div class="card-body">
+                <h5 class="card-title">Natours</h5>
+                <p class="card-text">Natours is a fictional resort tour, that provides tours for customers 
+                and includes various packages that the user can choose. The website also has an option 
+                to choose the size of the group that will be participating in the tour. 
+                The purpose of the website is to practive advanced CSS and SASS methods, 
+                to better organize the code that is used to create certain parts of the website.</p>
+                <a href="#" class="card-link">Github</a>
+                <a href="#" class="card-link">Live</a>
+                </div>
+            </div>
 
-        
+            <div class="card">
+                <img class="card-img-top" src={Omnifood} alt="Card image cap"></img>
+                <div class="card-body">
+                <h5 class="card-title">Omnifood</h5>
+                <p class="card-text">Omnifood is a fictional food delivery company, 
+                that provides food delivery services that serve whatever the customer feels 
+                like eating such as pizza, ramen, steak, burgers, soup, dessert, and many more delishes orders. 
+                The purposes of the website is to practice the main properties of HTML and CSS, including showcases, 
+                features and footers as well as responsive layout. It also includes a responsive layout 
+                that uses JavaScrpit, and it also comes with a widescreen and smartphone view.</p>
+                <a href="https://github.com/JonathanR5000/Omnifood" class="card-link">Github</a>
+                <a href="https://jonathanr5000.github.io/Omnifood/" class="card-link">Live</a>
+                </div>
+            </div>
+
+                <div class="card">
+                <img class="card-img-top" src={Natours} alt="Card image cap"></img>
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="#" class="card-link">Github</a>
+                <a href="#" class="card-link">Live</a>
+                </div>
+            </div>
+        </div>
+    </div>
     );
 }
 
