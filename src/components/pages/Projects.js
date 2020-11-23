@@ -17,8 +17,8 @@ function Projects(){
                 to choose the size of the group that will be participating in the tour. 
                 The purpose of the website is to practive advanced CSS and SASS methods, 
                 to better organize the code that is used to create certain parts of the website.</p>
-                <a href="#" class="card-link">Github</a>
-                <a href="#" class="card-link">Live</a>
+                <a href="https://github.com/JonathanR5000/Natours" class="card-link" target="_blank">Github</a>
+                <a href="https://jonathanr5000.github.io/Natours/" class="card-link" target="_blank">Live</a>
                 </div>
             </div>
 
@@ -45,8 +45,8 @@ function Projects(){
                 who's mission is to help you find your dream home! 
                 The purposes of the website is to practice advanceds CSS methods such as CS grid, and SASS 
                 to help better showcase each image effectively.</p>
-                <a href="https://github.com/JonathanR5000/Nexter" class="card-link">Github</a>
-                <a href="https://jonathanr5000.github.io/Nexter/" class="card-link">Live</a>
+                <a href="https://github.com/JonathanR5000/Nexter" class="card-link" target="_blank">Github</a>
+                <a href="https://jonathanr5000.github.io/Nexter/" class="card-link" target="_blank">Live</a>
                 </div>
             </div>
         </div>
