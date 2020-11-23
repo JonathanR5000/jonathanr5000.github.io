@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Natours from '../../natours.png';
 import Omnifood from '../../Omnifood.png';
+import Nexter from '../../Nexter.png';
 
 function Projects(){
     return(
@@ -31,18 +32,21 @@ function Projects(){
                 The purposes of the website is to practice the main properties of HTML and CSS, including showcases, 
                 features and footers as well as responsive layout. It also includes a responsive layout 
                 that uses JavaScrpit, and it also comes with a widescreen and smartphone view.</p>
-                <a href="https://github.com/JonathanR5000/Omnifood" class="card-link">Github</a>
-                <a href="https://jonathanr5000.github.io/Omnifood/" class="card-link">Live</a>
+                <a href="https://github.com/JonathanR5000/Omnifood" class="card-link" target="_blank">Github</a>
+                <a href="https://jonathanr5000.github.io/Omnifood/" class="card-link" target="_blank">Live</a>
                 </div>
             </div>
 
                 <div class="card">
-                <img class="card-img-top" src={Natours} alt="Card image cap"></img>
+                <img class="card-img-top" src={Nexter} alt="Card image cap"></img>
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <a href="#" class="card-link">Github</a>
-                <a href="#" class="card-link">Live</a>
+                <h5 class="card-title">Nexter</h5>
+                <p class="card-text">Nextor is a fictional real estate company, 
+                who's mission is to help you find your dream home! 
+                The purposes of the website is to practice advanceds CSS methods such as CS grid, and SASS 
+                to help better showcase each image effectively.</p>
+                <a href="https://github.com/JonathanR5000/Nexter" class="card-link">Github</a>
+                <a href="https://jonathanr5000.github.io/Nexter/" class="card-link">Live</a>
                 </div>
             </div>
         </div>
