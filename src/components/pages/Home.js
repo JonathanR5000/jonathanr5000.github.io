@@ -4,7 +4,7 @@ import Logo from '../../jonathanrivera.jpg';
 
 function Home(){
     return(
-        <div class="container">
+        <div class="home-container">
             <div class="left-row">
                 <h1 class="name-style">Jonathan Rivera</h1>
                 <p class="name-title">Inspiring Software Developer</p>
