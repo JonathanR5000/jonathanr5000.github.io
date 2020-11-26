@@ -1,6 +1,30 @@
 /* Google Font Ubuntu */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
 
+/* Animations */
+
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter{
+  from {
+    width: 0;
+  }
+  to {
+    width: 16em;
+  }
+}
+
+@keyframes blinkTextCursor{
+  from{
+    border-right-color: rgba(3, 3, 3, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
 
 * {
   font-family: 'Ubuntu', sans-serif;
@@ -51,10 +75,10 @@ h1{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background: #D0CDCD;
-  background: -webkit-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: -moz-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: linear-gradient(to top, #D0CDCD, #B2B4AC);
+  background: #FFFFFF;
+  background: -webkit-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: -moz-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: linear-gradient(to bottom right, #FFFFFF, #E3E3E3);
 }
 
 .left-row{
@@ -123,10 +147,10 @@ h1{
   padding: 2rem 3rem;
   align-items: center;
   justify-content: center;
-  background: #D0CDCD;
-  background: -webkit-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: -moz-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: linear-gradient(to top, #D0CDCD, #B2B4AC);
+  background: #FFFFFF;
+  background: -webkit-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: -moz-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: linear-gradient(to bottom right, #FFFFFF, #E3E3E3);
 }
 
 .about-heading{
@@ -169,7 +193,7 @@ h1{
 /* Projects Page*/
 
 .project-container{
-  height: 90vh;
+  height: 80vh;
   display: flex;
   padding: 2rem 3rem;
   align-items: center;

@@ -25,7 +25,9 @@ class Projects extends Component{
                     <h5> Natours </h5>
                         Natours is a fictional resort tour, that provides tours for customers 
                         and includes various packages that the user can choose. The website also has an option 
-                        to choose the size of the group that will be participating in the tour. 
+                        to choose the size of the group that will be participating in the tour. The purposes of 
+                        the website is to practice the main properties of HTML and CSS, including showcases, 
+                        features and footers as well as responsive layout.
                     </CardText>
                     <CardActions border>
                         <Button colored href="https://github.com/JonathanR5000/Natours" target="_blank"> Github </Button>
@@ -45,7 +47,9 @@ class Projects extends Component{
                     <h5> Omnifood </h5>
                     Omnifood is a fictional food delivery company, 
                     that provides food delivery services that serve whatever the customer feels 
-                    like eating such as pizza, ramen, steak, burgers, soup, dessert, and many more delishes orders. 
+                    like eating such as pizza, ramen, steak, burgers, soup, dessert, and many more delishes orders.
+                    The purpose of the website is to practive advanced CSS and SASS methods, to better organize 
+                    the code that is used to create certain parts of the website.
                     </CardText>
                     <CardActions border>
                         <Button colored href="https://github.com/JonathanR5000/Omnifood" target="_blank"> Github </Button>
@@ -81,6 +85,21 @@ class Projects extends Component{
             return(
                 <div class="project-container">
                 {/* Project 1 */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color:'black', height: '176px', background: 'url() center /cover'}}> Coming Soon! </CardTitle>
+                    <CardText>
+                        
+                    </CardText>
+                    <CardActions border>
+                        <Button colored> Github </Button>
+                        <Button colored> Live </Button>
+                    </CardActions>
+                    <CardMenu style={{color: "black"}}>
+                        <IconButton name=""></IconButton>
+                    </CardMenu>
+                    
+                </Card>
+
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color:'black', height: '176px', background: 'url() center /cover'}}> Coming Soon! </CardTitle>
                     <CardText>
