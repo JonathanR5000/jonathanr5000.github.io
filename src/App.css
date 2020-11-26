@@ -137,10 +137,11 @@ h1{
   font-weight: 1000;
 }
 
-.description{
+.about-description{
   font-size: 3rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
+  line-height: 50px;
 }
 
 .resume-button{
@@ -169,8 +170,7 @@ h1{
 
 .project-container{
   height: 90vh;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
   padding: 2rem 3rem;
   align-items: center;
   justify-content: center;
@@ -192,6 +192,19 @@ h1{
 }
 
 /* Contact Page */
+
+.contact-text{
+  font-size: 4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container{
+  padding: 2rem 3rem;
+  height: 90vh;
+}
 
 .success-msg{
   color: #57A773;
