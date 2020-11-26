@@ -174,16 +174,10 @@ h1{
   padding: 2rem 3rem;
   align-items: center;
   justify-content: center;
-  background: #D0CDCD;
-  background: -webkit-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: -moz-linear-gradient(bottom, #D0CDCD, #B2B4AC);
-  background: linear-gradient(to top, #D0CDCD, #B2B4AC);
-}
-
-.card{
-  background: tomato;
-  width: 100%;
-  padding: 2px 16px;
+  background: #FFFFFF;
+  background: -webkit-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: -moz-linear-gradient(top left, #FFFFFF, #E3E3E3);
+  background: linear-gradient(to bottom right, #FFFFFF, #E3E3E3);
 }
 
 .img-project{
