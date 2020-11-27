@@ -239,8 +239,8 @@ h1{
 }
 
 .links:hover{
-  color: pink;
-  border-bottom: 3px solid pink;
+  color: #fff;
+  border-bottom: 3px solid #0D7CFF;;
 }
 
 /* Animations */
