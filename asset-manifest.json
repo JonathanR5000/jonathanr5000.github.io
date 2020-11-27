@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df55f3d2.chunk.css",
+    "main.js": "/static/js/main.5ca690b7.chunk.js",
+    "main.js.map": "/static/js/main.5ca690b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.715068c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.715068c8.js.map",
+    "static/css/2.5b04f724.chunk.css": "/static/css/2.5b04f724.chunk.css",
+    "static/js/2.0ae489d6.chunk.js": "/static/js/2.0ae489d6.chunk.js",
+    "static/js/2.0ae489d6.chunk.js.map": "/static/js/2.0ae489d6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5b04f724.chunk.css.map": "/static/css/2.5b04f724.chunk.css.map",
+    "static/css/main.df55f3d2.chunk.css.map": "/static/css/main.df55f3d2.chunk.css.map",
+    "static/js/2.0ae489d6.chunk.js.LICENSE.txt": "/static/js/2.0ae489d6.chunk.js.LICENSE.txt",
+    "static/media/JonathanRiveraResume.6dc5bf6f.pdf": "/static/media/JonathanRiveraResume.6dc5bf6f.pdf",
+    "static/media/Nexter.e7f53ada.png": "/static/media/Nexter.e7f53ada.png",
+    "static/media/Omnifood.2be9c30e.png": "/static/media/Omnifood.2be9c30e.png",
+    "static/media/jonathanrivera.ddb7e5e1.jpg": "/static/media/jonathanrivera.ddb7e5e1.jpg",
+    "static/media/natours.0b7af0e6.png": "/static/media/natours.0b7af0e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.715068c8.js",
+    "static/css/2.5b04f724.chunk.css",
+    "static/js/2.0ae489d6.chunk.js",
+    "static/css/main.df55f3d2.chunk.css",
+    "static/js/main.5ca690b7.chunk.js"
+  ]
+}
