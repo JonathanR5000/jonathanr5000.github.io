@@ -30,11 +30,10 @@ class Projects extends Component{
                         features and footers as well as responsive layout.
                     </CardText>
                     <CardActions border>
-                        <Button colored href="https://github.com/JonathanR5000/Natours" target="_blank"> Github </Button>
-                        <Button colored href="https://jonathanr5000.github.io/Natours/" target="_blank"> Live </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://github.com/JonathanR5000/Natours" target="_blank"> Github </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://jonathanr5000.github.io/Natours/" target="_blank"> Live </Button>
                     </CardActions>
                     <CardMenu style={{color: "black"}}>
-                        <IconButton name=""></IconButton>
                     </CardMenu>
                     
                 </Card>
@@ -52,8 +51,8 @@ class Projects extends Component{
                     the code that is used to create certain parts of the website.
                     </CardText>
                     <CardActions border>
-                        <Button colored href="https://github.com/JonathanR5000/Omnifood" target="_blank"> Github </Button>
-                        <Button colored href="https://jonathanr5000.github.io/Omnifood/" target="_blank"> Live </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://github.com/JonathanR5000/Omnifood" target="_blank"> Github </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://jonathanr5000.github.io/Omnifood/" target="_blank"> Live </Button>
                     </CardActions>
                     <CardMenu style={{color: "black"}}>
                     </CardMenu>
@@ -72,8 +71,8 @@ class Projects extends Component{
                     to help better showcase each image effectively.
                     </CardText>
                     <CardActions border>
-                        <Button colored href="https://github.com/JonathanR5000/Nexter" target="_blank"> Github </Button>
-                        <Button colored href="https://jonathanr5000.github.io/Nexter/" target="_blank"> Live </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://github.com/JonathanR5000/Nexter" target="_blank"> Github </Button>
+                        <Button colored style={{textDecoration: 'none'}} href="https://jonathanr5000.github.io/Nexter/" target="_blank"> Live </Button>
                     </CardActions>
                     <CardMenu style={{color: "black"}}>
                     </CardMenu>
@@ -92,10 +91,8 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                         <Button colored> Github </Button>
-                        <Button colored> Live </Button>
                     </CardActions>
                     <CardMenu style={{color: "black"}}>
-                        <IconButton name=""></IconButton>
                     </CardMenu>
                     
                 </Card>
@@ -107,10 +104,8 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                         <Button colored> Github </Button>
-                        <Button colored> Live </Button>
                     </CardActions>
                     <CardMenu style={{color: "black"}}>
-                        <IconButton name=""></IconButton>
                     </CardMenu>
                     
                 </Card>
@@ -123,8 +118,8 @@ class Projects extends Component{
         return(
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
-                    <Tab>HTML/CSS</Tab>
-                    <Tab>Java</Tab>
+                    <Tab style={{textDecoration: 'none'}} >HTML/CSS</Tab>
+                    <Tab style={{textDecoration: 'none'}} >Java</Tab>
                 </Tabs>
 
                     <Grid className="projects-grid">

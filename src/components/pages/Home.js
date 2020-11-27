@@ -8,7 +8,7 @@ function Home(){
             <div class="left-row">
                 <h1 class="name-style">Jonathan Rivera</h1>
                 <div class="text-animation">
-                <p class="name-title" data-text="text-anim">Inspiring Software Developer</p>
+                <p class="name-title" data-text="text-anim">Aspiring Software Developer</p>
                 </div>
                 <div class="about-links">
                     <a class="about-btn linkedIN" href="https://www.linkedin.com/in/jonathanrivera5000/" target="_blank"> LinkedIN </a>
